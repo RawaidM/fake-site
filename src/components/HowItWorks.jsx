@@ -3,7 +3,7 @@ import React from "react";
 const HowItWorks = () => {
   return (
     <div className="bg-gray-200 w-full flex flex-col justify-center items-center mt-1 pt-2">
-      <span className="text-xl sm:text-2xl text-orange-700 font-semibold tracking-widest mb-5">
+      <span className="text-xl sm:text-3xl text-orange-700 font-serif font-bold tracking-widest mt-2 mb-5">
         How It Works?
       </span>
       <div className="flex flex-col sm:flex-row justify-around items-center text-center mb-2">
@@ -13,7 +13,7 @@ const HowItWorks = () => {
             alt=""
             className="rounded-t shadow-xl"
           />
-          <h1 className="font-sans font-semibold text-xl tracking-wider my-2 sm:my-3">
+          <h1 className="font-mono font-semibold text-xl tracking-wide my-2 sm:my-3">
             Specify Your Request
           </h1>
           <p className="font-serif text-sm tracking-tight text-gray-700 mb-3">
@@ -28,7 +28,7 @@ const HowItWorks = () => {
             alt=""
             className="rounded-t shadow-xl"
           />
-          <h1 className="font-sans font-semibold text-xl tracking-wider my-2 sm:my-3">
+          <h1 className="font-mono font-semibold text-xl tracking-wide my-2 sm:my-3">
             Get Price Offers
           </h1>
           <p className="font-serif text-sm tracking-tight text-gray-700 mb-3">
@@ -43,7 +43,7 @@ const HowItWorks = () => {
             alt=""
             className="rounded-t shadow-xl"
           />
-          <h1 className="font-sans font-semibold text-xl tracking-wider my-2 sm:my-3">
+          <h1 className="font-mono font-semibold text-xl tracking-wide my-2 sm:my-3">
             Choose The Best Offer
           </h1>
           <p className="font-serif text-sm tracking-tight text-gray-700 mb-3">

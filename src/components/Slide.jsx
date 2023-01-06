@@ -69,7 +69,7 @@ const Slide = () => {
         {/* Title and Rate */}
         <div className="px-5 py-2 sm:py-5 font-serif text-lg sm:text-xl tracking-wide hover:text-blue-400 transition-colors delay-75">
           <a href="/#" className="flex flex-col">
-            <p>{slide.title}</p>
+            <p className="font-poppins tracking-normal">{slide.title}</p>
             <span className="font-sans font-light text-base text-gray-800 self-center">
               {slide.rate}
             </span>
@@ -84,7 +84,7 @@ const Slide = () => {
     <div className="flex flex-col justify-center items-center pb-8">
       <div className="flex justify-center w-full mb-3 py-2 sm:py-3 shadow-sm">
         <img src={Logo} alt="hemenLogoSmall" className="h-12 sm:h-16" />
-        <p className="flex self-center text-xl sm:text-2xl font-semibold text-gray-600">
+        <p className="flex self-center text-xl sm:text-2xl font-poppins font-semibold text-gray-600">
           Most&nbsp;
           <span className="text-black">Popular</span>
         </p>

@@ -16,7 +16,7 @@ const Footer = () => {
           <h1 className="text-gray-200 text-base mb-1 self-center">
             Follow us
           </h1>
-          <div className="flex flex-row justify-center items-center text-black">
+          <div className="flex flex-row justify-center items-center text-white mt-2 gap-5">
             <a href="/#">
               <BsFacebook className="mr-2" size={20} />
             </a>

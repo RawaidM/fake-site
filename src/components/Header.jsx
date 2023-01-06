@@ -35,7 +35,7 @@ const Header = () => {
           className="h-10 sm:h-12"
           id="header-logo"
         />
-        <span className="-ml-6 mt-3">rofessionals for you</span>
+        <span className="-ml-6 mt-3 ">rofessionals for you</span>
       </a>
 
       {/*Hamburger*/}

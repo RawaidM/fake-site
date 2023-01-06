@@ -3,6 +3,9 @@ import Slide from "./components/Slide";
 import HowItWorks from "./components/HowItWorks";
 import PhoneAd from "./components/PhoneAd";
 import Footer from "./components/Footer";
+import Youtube from "./components/Youtube";
+import Content from "./components/Content";
+import Header from "./components/Header";
 
 import Login from "./pages/Login";
 import About from "./pages/About";
@@ -14,6 +17,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <div className="App relative min-h-screen pb-24">
+      <Header />
       <Routes>
         <Route
           path="/"
@@ -23,6 +27,7 @@ function App() {
               <Slide />
               <HowItWorks />
               <PhoneAd />
+              <Content />
             </>
           }
         />
