@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Youtube from "./components/Youtube";
 import Content from "./components/Content";
 import Header from "./components/Header";
+import Category from "./components/Category";
 
 import Login from "./pages/Login";
 import About from "./pages/About";
@@ -28,6 +29,10 @@ function App() {
               <HowItWorks />
               <PhoneAd />
               <Content />
+              <div className="bg-zinc-200">
+                <Youtube />
+                <Category />
+              </div>
             </>
           }
         />

@@ -23,7 +23,7 @@ const Header = () => {
   });
 
   return (
-    <header className="flex flex-wrap sticky top-0 left-0 z-50 bg-white w-full justify-between items-center shadow-lg max-w-full px-[2%] py-[1%]">
+    <header className="flex flex-wrap sticky top-0 left-0 z-30 bg-white w-full justify-between items-center shadow-lg max-w-full px-[2%] py-[1%]">
       {/*Logo*/}
       <a
         href="/#"

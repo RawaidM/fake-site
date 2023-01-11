@@ -6,7 +6,7 @@ import { BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="absolute bottom-0 w-full h-24">
+    <div className="absolute bottom-0 w-full h-24 overflow-hidden">
       <div className="bg-gray-800 h-24 flex flex-wrap justify-between items-center text-sm text-gray-200">
         <div className="flex flex-col justify-center items-center w-5/12">
           <span>By RawaidM</span>
